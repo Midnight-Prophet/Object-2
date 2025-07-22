@@ -7,10 +7,9 @@ const people = [
 
 function logNames(array) {
   array.forEach(person => { // This method loops through every item (object) in the array.//
-    console.log(person.firstName + " " + person.lastName +" "+"Age"person.age);
+    console.log(person.firstName + " " + person.lastName +" "+"Age" + person.age);
   });
 }
 
 logNames(people)
-
 
